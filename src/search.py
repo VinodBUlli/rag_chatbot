@@ -18,7 +18,7 @@ class RAGSearch:
         else:
             self.vectorstore.load()
         groq_api_key = os.getenv("GROQ_API_KEY")
-        # groq_api_key = ""
+        groq_api_key = ""
         self.llm = ChatGroq(groq_api_key=groq_api_key, model_name=llm_model)
         print(f"[INFO] Groq LLM initialized: {llm_model}")
 

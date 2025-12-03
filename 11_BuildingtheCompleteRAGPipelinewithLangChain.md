@@ -131,3 +131,4 @@ Think of an LLM as a brilliant student who has only read encyclopedias up until 
 uv venv
 uv init
 uv add -r requirements.txt
+streamlit run app_ui.py
